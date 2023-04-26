@@ -1,5 +1,7 @@
 //https://getemoji.com
 
+//Synchronus - Code Run Line By Line
+
 //Asynchronous Callback
 setTimeout(() => {
   console.log("🐇");
