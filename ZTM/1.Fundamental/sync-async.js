@@ -1,6 +1,9 @@
-//https://getemoji.com
+/**
+ * Node js - IT is an Asynchronous evenet-driven javascript runtime
+ */
 
 //Synchronus - Code Run Line By Line
+
 
 //Asynchronous Callback
 setTimeout(() => {
@@ -17,3 +20,7 @@ console.log('🐢');
 //Node try distribute some async function to the os karnel
 //Like - Netwok related async function done by os netwok module
 //To thread pool make keep free
+
+/**
+ * Blocking Code = It execute  Synchronusly. ex :- Json.stringyft({})
+ */
