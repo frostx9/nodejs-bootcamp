@@ -1,0 +1,17 @@
+module => A code
+
+package => Multipale Moudle
+
+
+Sementic Version ->  
+
+Major.Minor.Patch
+ 1   .  2  . 5
+
+ Major => MAJOR version when you make incompatible API changes. Means complete breaking changes, how package works
+
+ Minor => MINOR version when you add functionality in a backwards compatible manner
+
+ Patch => PATCH version when you make backwards compatible bug fixes
+
+^0.8.0  => in here npm take 8 as a major version though there is no mazor version
