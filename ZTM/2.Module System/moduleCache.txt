@@ -1,0 +1,3 @@
+Node Maintain a cache , where a module call before.
+
+if loaded first then it wont loaded second time. it will save to the cache in memory
