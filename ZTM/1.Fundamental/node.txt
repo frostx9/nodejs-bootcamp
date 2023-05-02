@@ -1,0 +1,6 @@
+
+Node core functionality like -> fs, http, path, crypto...etc are live in libuv librabry. Which is written in C programing language
+it deals with input ouptput task
+
+When v8 engine call this fuctionality with help of nodejs binding it goes to the libuv libray
+

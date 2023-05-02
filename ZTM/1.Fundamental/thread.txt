@@ -1,0 +1,19 @@
+Is Node JS Multi Thread ?
+ In node there is one main thread...where runs v8engine or js code
+ 
+ Libuv mainly hadle two type I/O - File System, Network Operation. Any Time an async function call from js
+ it put to the event loops
+
+
+Some Task that related to Network, it goes to the os while other task , like reading a file it goes to the thread pool
+
+Thread Pool - There are some collection of thread in libuv.It is like thread present in processor.
+it handle one work at a time
+
+** All async code dont run in thread pool. Instead where possiable libuv use os karenl directly
+
+--------------------Event Loop--------------------
+
+Event Loop is responsialbe for all callback function in node programs. It alows Multi pale things in one at a time
+
+When start some program executing in node runtime , a pice of code start running, this code is loop inside of libuv, this is event loop
