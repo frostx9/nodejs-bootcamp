@@ -17,3 +17,19 @@ it handle one work at a time
 Event Loop is responsialbe for all callback function in node programs. It alows Multi pale things in one at a time
 
 When start some program executing in node runtime , a pice of code start running, this code is loop inside of libuv, this is event loop
+
+Call back Qeue => Fist in First Out
+
+Phase Of The Event Loop --------------
+
+When a callback into a function like setTimeOut, when timer is complete is put to the qeue or callback qeue or event qeue to be executing a later time
+
+There is no one callback qeue , we do qeue of callbacks that keep track of which tasks need to be run but in deep there is several deferent queues. Each one handle deforent phase of the
+event loops
+
+There is Event Loop Phase which is responsialbe for different types of operation
+four man phase - 1. Timers, 2. I/O callback, 3. setImmeduiate, 4. Close callback
+
+like A callback for set timeout would go on the timer queue. While a callback for a filesystem operation go to the I/O callback qeue. It alse know as pool qeue
+
+There is 3 type timer -> 1. setTimeOut, 2.setInterVal, 3.setImmeduiate

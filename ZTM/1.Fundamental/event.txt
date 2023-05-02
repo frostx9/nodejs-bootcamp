@@ -1,0 +1,4 @@
+Every programing language that dealing with event , its called Observer Desing Pattern
+
+There is A Subject and there are multipale Observer. So when Subject create a event , Observer notify from the event or result
+
