@@ -1,0 +1,3 @@
+NGINX :- 
+  NGINX is a powerful web server and uses a non-threaded, even-driven architecture
+It can also do other important things such as load balancing , HTTP caching or be used as reverse proxy

@@ -1,0 +1,7 @@
+How Web work ?
+
+When we search a address ..like www.facebook.com.. It calling the DNS server / Domain name Server
+it is a type database where hold actaul ip address corospending a url
+
+So when we search www.facebook.com , DNS server first find corospending ip address of www.facebook.com and return it
+then we use the ip address the connect the server
