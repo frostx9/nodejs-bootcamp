@@ -1,3 +1,44 @@
 NGINX :- 
   NGINX is a powerful web server and uses a non-threaded, even-driven architecture
 It can also do other important things such as load balancing , HTTP caching or be used as reverse proxy
+
+
+Until Now
+                        Normal Http Conection
+          Client -------------------------------------> Server
+
+For Normal we use Normal Http Conection to connect the server with client. 
+
+
+In VPN case (Proxy Server)
+
+        Client ------------------> VPN -------------------> Server
+
+In VPN connection when Multiaple client use vpn to connect the server vpn forward the request to the server on be half of clients.
+This Techinque is called  ( Forward proxy )
+
+** In here Server can not understand who is actual client , because in middle vpn act as a client , but not real client
+
+
+
+[//] Reverse Proxy - In this Techinque We have Multiaple Server but cleint one
+
+** In here client can not understand who is actual server, because in middle vpn  act as a server , he can decided the which server can handle the upcoming request
+
+
+Most Popular that middle server is Nginx. We dont comunicate with main server directly. Nginx decide which server can handle the upcoming request
+
+[//] Load balancing - Distributet all request to every server maintainly , so one server have too much load , others haven'that
+
+[//] HTTP Cache - Supose userA request a image from server. Nginx take the request , pass the server. Got the response from server, pass the user.
+                  Now userB request same image from server. Nginx make a cache of taht file when userA request taht same file. So any one request 
+                  same file , he can pass the data. Wont need to call server again. So userB get that picture from NGINX server
+
+
+** Example Config ( Not Real)
+
+          {
+            /admin : use Server 1
+            / settings : use Server 2
+            /hone : use Server 3
+          }

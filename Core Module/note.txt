@@ -1,0 +1,35 @@
+[//] MVC - Model View Controller Architecture
+
+** Maintability Code
+
+Fodler Structure 
+
+1. models
+
+In Here All Data base Schema Design Code Written Here
+
+
+
+2. controllers
+
+All Rotes Api Written Here
+
+
+3. routes
+
+All Rotes Api Written Here
+
+
+
+
+4. views
+All Views file written here
+
+
+[//] Authentication : 
+
+Two Type : 1. Statefull - Which maintains state or data in server side. Keep CLient Data to Authenticate for unique
+                        ex: Cookie Based Authenticate
+
+           2. Stateless - Which has no state or data
+                        ex: Token Based Authenticate

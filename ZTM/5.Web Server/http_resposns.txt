@@ -1,0 +1,18 @@
+HTTP Response : It Have 3 parts
+
+1. Headers -> Content-Type: Application/JSON
+
+2. Body -> Data From Server
+
+3. Status Code -> Resposne Code
+
+
+[//] Some Staus Code
+
+200 => Request Succed
+
+201 => New Data Created In Server
+
+401 => Not Authenticated. Not Loged In
+
+403 => Not Permission To Access Data

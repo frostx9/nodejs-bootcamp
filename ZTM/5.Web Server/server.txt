@@ -5,3 +5,15 @@ it is a type database where hold actaul ip address corospending a url
 
 So when we search www.facebook.com , DNS server first find corospending ip address of www.facebook.com and return it
 then we use the ip address the connect the server
+
+API - Application Programming Interface. which is a software intermidary that allows to prgram talk to each other
+
+Each Api Have 4 part
+
+1. Method -> POST, GET...
+
+2. Path -> /users
+
+3. Body -> JSON data
+
+4. Headers -> Addtional Meta Data
