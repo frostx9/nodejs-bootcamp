@@ -1,0 +1,16 @@
+[//] Origin :- Origin is a 3 part of Combiantion
+
+  ex :-   https://www.google.com/maps
+
+1st part :- Protpcol. Which are either https or https
+
+2nd part :- Host. Where We Browsing to. In here www.google.com
+
+3d part :- Port Number. In here port no is 443, because we use https Protpcol
+
+
+[//] Same Origin Policy - Same origin policy is a security feature by your browser that restricts what your
+                          browser is allowed to load when you're browsing pages on the internet.
+
+
+[//] CORS (Cross Origin Resource Sharing) 
