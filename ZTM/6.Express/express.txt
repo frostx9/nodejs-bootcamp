@@ -1,0 +1,13 @@
+  [//] Route Paramemter
+
+  app.get("/friend/:id", (req,res)=>{
+      const { id } = req.params
+  })
+
+  in here ' id ' is Route Paramemter
+
+  [//] Developer Dependencies -  This package Need When we developing a app, not for actual run in production
+
+  [//] express.JSON() middleware - Server Dont understand what is JSON. To parse into object we use express.JSON() 
+  middleware. Then parsed object sent to body. Thats why we write req.body to get data in POST method
+
